@@ -1,0 +1,17 @@
+{
+  "name": "customer-360-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "cors":"2.8.6",
+    "dotenv": "^17.4.2"
+  }
+}
