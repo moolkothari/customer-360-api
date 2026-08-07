@@ -46,7 +46,7 @@ app.get('/api/delivery-tracking/:awb', (req, res) => {
             success: true,
             message: 'Delivery tracking record not found',
             count: 0,
-            data: null
+            data: []
         });
     }
 
@@ -68,7 +68,7 @@ app.get('/api/delivery-tracking-cif/:cif', (req, res) => {
             success: true,
             message: 'Delivery tracking record not found',
             count: 0,
-            data: null
+            data: []
         });
     }
 
@@ -101,7 +101,7 @@ app.get('/api/shipment-details/:awb', (req, res) => {
             success: true,
             message: 'Shipment details not found',
             count: 0,
-            data: null
+            data: []
         });
     }   
 
@@ -128,7 +128,7 @@ app.get('/api/relationship/:cif', (req, res) => {
             success: true,
             message: 'Relationship data not found',
             count: 0,
-            data: null
+            data: []
         });
     }   
 
