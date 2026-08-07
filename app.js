@@ -43,7 +43,8 @@ app.get('/api/delivery-tracking/:awb', (req, res) => {
     if (!record) {
         return res.status(200).json({
             success: true,
-            message: 'Delivery tracking record not found'
+            message: 'Delivery tracking record not found',
+            data: null
         });
     }
 
@@ -61,12 +62,16 @@ app.get('/api/delivery-tracking-cif/:cif', (req, res) => {
      if (!records) {
         return res.status(200).json({
             success: true,
-            message: 'Delivery tracking record not found'
+            message: 'Delivery tracking record not found',
+            count: 0,
+            data: null
         });
     }
 
     res.json({
         success: true,
+        message: 'Delivery tracking records found',
+        count: records.length,
         data: records
     });
     
@@ -90,12 +95,15 @@ app.get('/api/shipment-details/:awb', (req, res) => {
     if (records.length === 0) {
         return res.status(200).json({
             success: true,
-            message: 'Shipment details not found'
+            message: 'Shipment details not found',
+            count: 0,
+            data: null
         });
     }   
 
     res.json({
         success: true,
+        message: 'Shipment details found',
         count: records.length,
         data: records
     });
@@ -114,12 +122,15 @@ app.get('/api/relationship/:cif', (req, res) => {
     if (records.length === 0) {
         return res.status(200).json({
             success: true,
-            message: 'Relationship data not found'
+            message: 'Relationship data not found',
+            count: 0,
+            data: null
         });
     }   
 
     res.json({
         success: true,
+        message: 'Relationship data found',
         count: records.length,
         data: records
     });
