@@ -41,8 +41,8 @@ app.get('/api/delivery-tracking/:awb', (req, res) => {
     const record = deliveryTracking.find(item => item.AWBTrackingNo === awb);
 
     if (!record) {
-        return res.status(404).json({
-            success: false,
+        return res.status(200).json({
+            success: true,
             message: 'Delivery tracking record not found'
         });
     }
@@ -59,8 +59,8 @@ app.get('/api/delivery-tracking-cif/:cif', (req, res) => {
     const cif = req.params.cif;
     const records = deliveryTracking.filter(item => item.CIFNumber === cif);   
      if (!records) {
-        return res.status(404).json({
-            success: false,
+        return res.status(200).json({
+            success: true,
             message: 'Delivery tracking record not found'
         });
     }
@@ -88,8 +88,8 @@ app.get('/api/shipment-details/:awb', (req, res) => {
         item => item.AWBTrackingNo === awb);
 
     if (records.length === 0) {
-        return res.status(404).json({
-            success: false,
+        return res.status(200).json({
+            success: true,
             message: 'Shipment details not found'
         });
     }   
@@ -112,8 +112,8 @@ app.get('/api/relationship/:cif', (req, res) => {
     const records = relationshipData.filter(item => item.customercif === cif).sort((a, b) => a.sortorder - b.sortorder);
 
     if (records.length === 0) {
-        return res.status(404).json({
-            success: false,
+        return res.status(200).json({
+            success: true,
             message: 'Relationship data not found'
         });
     }   
