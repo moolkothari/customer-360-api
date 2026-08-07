@@ -32,6 +32,11 @@ function generateDeliveryAndShipmentData(totalRecords = 50) {
   const deliveryTrackingList = [];
   const shipmentDetailsList = [];
 
+
+  const createdDate = new Date ( 2026, 0,((1-101)%28)+1); // January 2026, day between 1 and 28
+
+  const scheduledDate = new Date(createdDate.getDate() + 2); // 2 days after createdDate
+
   for (let i = 1; i <= totalRecords; i++) {
     const awbNo = `RAKCR${String(i).padStart(13,0)}`;
     const cif = customerCIFs[(i - 1) % customerCIFs.length]; // Distributes evenly among 10 CIFs
@@ -44,30 +49,61 @@ function generateDeliveryAndShipmentData(totalRecords = 50) {
       AWBTrackingNo: awbNo,
       CIFNumber: cif,
       Consignee: customer,
-      CreatedOn: '2026-01-10',
+      CreatedOn: createdDate.toISOString().split('T')[0],
       ProductType: getRandomItem(productTypes),
-      DeliveryScheduled: '2026-01-12',
-      DeliveryType: 'Express',
-      Location: hub,
-      DeliveryAttempt: '1',
+      DeliveryScheduled: scheduledDate.toISOString().split('T')[0],
+      DeliveryType: i % 2 === 0 ? 'Express' : 'Standard',
+      Location: locations[i % locations.length],
+      DeliveryAttempt: String(i % 3), // 0, 1, or 2 attempts
       ConsigneeMobileNumber: `+97150${Math.floor(1000000 + Math.random() * 9000000)}`,
       ShipmentStatus: status,
-      LastUpdatedOn: '10 Jan 2026 14:35:20'
+      LastUpdatedOn: new Date().toISOString().split('T')[0],
     };
 
-    // Corresponding Shipment Details Record
-    const shipmentRecord = {
+    const dateOnly = new Date().toISOString().split('T')[0]; // YYYY-MM-DD format
+    const scheduledOnly = scheduledDate.toISOString().split('T')[0];
+
+
+    // Corresponding Shipment Details Record 1
+    const shipmentRecord1 = {
       ShipmentID: `SH${100000 + i}`,
       Name: `Shipment Activity ${i}`,
       AWBTrackingNo: awbNo,
       ActivityCode: 'ARR',
       ActivityName: 'Arrived at Hub',
       Description: `Shipment received at ${hub} and awaiting further process`,
-      Hub: hub
+      Hub: hub,
+      CreatedOn: `${dateOnly}T14:35:20Z`,
     };
 
+    
+    // Corresponding Shipment Details Record 2
+    const shipmentRecord2 = {
+      ShipmentID: `SH${100000 + i+1}`,
+      Name: `Shipment Activity ${i}`,
+      AWBTrackingNo: awbNo,
+      ActivityCode: 'CRT',
+      ActivityName: 'Shipment Created',
+      Description: `Shipment Created and awaiting further process`,
+      Hub: locations[i % locations.length],
+      CreatedOn: `${dateOnly}T14:35:20Z`,
+    };
+
+     // Corresponding Shipment Details Record 3
+    const shipmentRecord3 = {
+      ShipmentID: `SH${100000 + i+2}`,
+      Name: `Shipment Activity ${i}`,
+      AWBTrackingNo: awbNo,
+      ActivityCode: 'DSP',
+      ActivityName: 'Shipment Dispatched',
+      Description: `Shipment dispatched from ${locations[i % locations.length]} and in transit`,
+      Hub: locations[i % locations.length],
+      CreatedOn: `${dateOnly}T14:35:20Z`,
+    };
+
+
     deliveryTrackingList.push(deliveryRecord);
-    shipmentDetailsList.push(shipmentRecord);
+    shipmentDetailsList.push(shipmentRecord1, shipmentRecord2, shipmentRecord3);
   }
 
   return { deliveryTrackingList, shipmentDetailsList };

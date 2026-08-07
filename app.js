@@ -81,8 +81,9 @@ Shipment Detail API Endpoint
 
 // Get Shipment Details by AWBTrackingNo
 app.get('/api/shipment-details/:awb', (req, res) => {
-    const awb = req.params.awb;
     
+    const awb = req.params.awb;
+
     const records = shipmentDetails.filter(
         item => item.AWBTrackingNo === awb);
 

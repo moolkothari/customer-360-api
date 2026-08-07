@@ -5,26 +5,89 @@
     "AWBTrackingNo": "RAKCR0000000000001",
     "ActivityCode": "ARR",
     "ActivityName": "Arrived at Hub",
-    "Description": "Shipment received at Abu Dhabi Hub and awaiting further process",
-    "Hub": "Abu Dhabi Hub"
+    "Description": "Shipment received at Sharjah Hub and awaiting further process",
+    "Hub": "Sharjah Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100002",
+    "Name": "Shipment Activity 1",
+    "AWBTrackingNo": "RAKCR0000000000001",
+    "ActivityCode": "CRT",
+    "ActivityName": "Shipment Created",
+    "Description": "Shipment Created and awaiting further process",
+    "Hub": "Abu Dhabi Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100003",
+    "Name": "Shipment Activity 1",
+    "AWBTrackingNo": "RAKCR0000000000001",
+    "ActivityCode": "DSP",
+    "ActivityName": "Shipment Dispatched",
+    "Description": "Shipment dispatched from Abu Dhabi Hub and in transit",
+    "Hub": "Abu Dhabi Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
   },
   {
     "ShipmentID": "SH100002",
     "Name": "Shipment Activity 2",
-    "AWBTrackingNo": "RAKCR0000000000001",
+    "AWBTrackingNo": "RAKCR0000000000002",
     "ActivityCode": "ARR",
     "ActivityName": "Arrived at Hub",
-    "Description": "Shipment received at Sharjah Hub and awaiting further process",
-    "Hub": "Sharjah Hub"
+    "Description": "Shipment received at Dubai Hub and awaiting further process",
+    "Hub": "Dubai Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100003",
+    "Name": "Shipment Activity 2",
+    "AWBTrackingNo": "RAKCR0000000000002",
+    "ActivityCode": "CRT",
+    "ActivityName": "Shipment Created",
+    "Description": "Shipment Created and awaiting further process",
+    "Hub": "Sharjah Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100004",
+    "Name": "Shipment Activity 2",
+    "AWBTrackingNo": "RAKCR0000000000002",
+    "ActivityCode": "DSP",
+    "ActivityName": "Shipment Dispatched",
+    "Description": "Shipment dispatched from Sharjah Hub and in transit",
+    "Hub": "Sharjah Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
   },
   {
     "ShipmentID": "SH100003",
     "Name": "Shipment Activity 3",
-    "AWBTrackingNo": "RAKCR0000000000001",
+    "AWBTrackingNo": "RAKCR0000000000003",
     "ActivityCode": "ARR",
     "ActivityName": "Arrived at Hub",
-    "Description": "Shipment received at Dubai Hub and awaiting further process",
-    "Hub": "Dubai Hub"
+    "Description": "Shipment received at Abu Dhabi Hub and awaiting further process",
+    "Hub": "Abu Dhabi Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100004",
+    "Name": "Shipment Activity 3",
+    "AWBTrackingNo": "RAKCR0000000000003",
+    "ActivityCode": "CRT",
+    "ActivityName": "Shipment Created",
+    "Description": "Shipment Created and awaiting further process",
+    "Hub": "Jebel Ali Freezone Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100005",
+    "Name": "Shipment Activity 3",
+    "AWBTrackingNo": "RAKCR0000000000003",
+    "ActivityCode": "DSP",
+    "ActivityName": "Shipment Dispatched",
+    "Description": "Shipment dispatched from Jebel Ali Freezone Hub and in transit",
+    "Hub": "Jebel Ali Freezone Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
   },
   {
     "ShipmentID": "SH100004",
@@ -32,8 +95,29 @@
     "AWBTrackingNo": "RAKCR0000000000004",
     "ActivityCode": "ARR",
     "ActivityName": "Arrived at Hub",
-    "Description": "Shipment received at Abu Dhabi Hub and awaiting further process",
-    "Hub": "Abu Dhabi Hub"
+    "Description": "Shipment received at Dubai Hub and awaiting further process",
+    "Hub": "Dubai Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100005",
+    "Name": "Shipment Activity 4",
+    "AWBTrackingNo": "RAKCR0000000000004",
+    "ActivityCode": "CRT",
+    "ActivityName": "Shipment Created",
+    "Description": "Shipment Created and awaiting further process",
+    "Hub": "Dubai Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100006",
+    "Name": "Shipment Activity 4",
+    "AWBTrackingNo": "RAKCR0000000000004",
+    "ActivityCode": "DSP",
+    "ActivityName": "Shipment Dispatched",
+    "Description": "Shipment dispatched from Dubai Hub and in transit",
+    "Hub": "Dubai Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
   },
   {
     "ShipmentID": "SH100005",
@@ -42,7 +126,28 @@
     "ActivityCode": "ARR",
     "ActivityName": "Arrived at Hub",
     "Description": "Shipment received at Jebel Ali Freezone Hub and awaiting further process",
-    "Hub": "Jebel Ali Freezone Hub"
+    "Hub": "Jebel Ali Freezone Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100006",
+    "Name": "Shipment Activity 5",
+    "AWBTrackingNo": "RAKCR0000000000005",
+    "ActivityCode": "CRT",
+    "ActivityName": "Shipment Created",
+    "Description": "Shipment Created and awaiting further process",
+    "Hub": "Abu Dhabi Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100007",
+    "Name": "Shipment Activity 5",
+    "AWBTrackingNo": "RAKCR0000000000005",
+    "ActivityCode": "DSP",
+    "ActivityName": "Shipment Dispatched",
+    "Description": "Shipment dispatched from Abu Dhabi Hub and in transit",
+    "Hub": "Abu Dhabi Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
   },
   {
     "ShipmentID": "SH100006",
@@ -50,8 +155,29 @@
     "AWBTrackingNo": "RAKCR0000000000006",
     "ActivityCode": "ARR",
     "ActivityName": "Arrived at Hub",
-    "Description": "Shipment received at Dubai Hub and awaiting further process",
-    "Hub": "Dubai Hub"
+    "Description": "Shipment received at Jebel Ali Freezone Hub and awaiting further process",
+    "Hub": "Jebel Ali Freezone Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100007",
+    "Name": "Shipment Activity 6",
+    "AWBTrackingNo": "RAKCR0000000000006",
+    "ActivityCode": "CRT",
+    "ActivityName": "Shipment Created",
+    "Description": "Shipment Created and awaiting further process",
+    "Hub": "Sharjah Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100008",
+    "Name": "Shipment Activity 6",
+    "AWBTrackingNo": "RAKCR0000000000006",
+    "ActivityCode": "DSP",
+    "ActivityName": "Shipment Dispatched",
+    "Description": "Shipment dispatched from Sharjah Hub and in transit",
+    "Hub": "Sharjah Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
   },
   {
     "ShipmentID": "SH100007",
@@ -60,7 +186,28 @@
     "ActivityCode": "ARR",
     "ActivityName": "Arrived at Hub",
     "Description": "Shipment received at Jebel Ali Freezone Hub and awaiting further process",
-    "Hub": "Jebel Ali Freezone Hub"
+    "Hub": "Jebel Ali Freezone Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100008",
+    "Name": "Shipment Activity 7",
+    "AWBTrackingNo": "RAKCR0000000000007",
+    "ActivityCode": "CRT",
+    "ActivityName": "Shipment Created",
+    "Description": "Shipment Created and awaiting further process",
+    "Hub": "Jebel Ali Freezone Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100009",
+    "Name": "Shipment Activity 7",
+    "AWBTrackingNo": "RAKCR0000000000007",
+    "ActivityCode": "DSP",
+    "ActivityName": "Shipment Dispatched",
+    "Description": "Shipment dispatched from Jebel Ali Freezone Hub and in transit",
+    "Hub": "Jebel Ali Freezone Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
   },
   {
     "ShipmentID": "SH100008",
@@ -68,8 +215,29 @@
     "AWBTrackingNo": "RAKCR0000000000008",
     "ActivityCode": "ARR",
     "ActivityName": "Arrived at Hub",
-    "Description": "Shipment received at Sharjah Hub and awaiting further process",
-    "Hub": "Sharjah Hub"
+    "Description": "Shipment received at Dubai Hub and awaiting further process",
+    "Hub": "Dubai Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100009",
+    "Name": "Shipment Activity 8",
+    "AWBTrackingNo": "RAKCR0000000000008",
+    "ActivityCode": "CRT",
+    "ActivityName": "Shipment Created",
+    "Description": "Shipment Created and awaiting further process",
+    "Hub": "Dubai Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100010",
+    "Name": "Shipment Activity 8",
+    "AWBTrackingNo": "RAKCR0000000000008",
+    "ActivityCode": "DSP",
+    "ActivityName": "Shipment Dispatched",
+    "Description": "Shipment dispatched from Dubai Hub and in transit",
+    "Hub": "Dubai Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
   },
   {
     "ShipmentID": "SH100009",
@@ -77,8 +245,29 @@
     "AWBTrackingNo": "RAKCR0000000000009",
     "ActivityCode": "ARR",
     "ActivityName": "Arrived at Hub",
-    "Description": "Shipment received at Abu Dhabi Hub and awaiting further process",
-    "Hub": "Abu Dhabi Hub"
+    "Description": "Shipment received at Dubai Hub and awaiting further process",
+    "Hub": "Dubai Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100010",
+    "Name": "Shipment Activity 9",
+    "AWBTrackingNo": "RAKCR0000000000009",
+    "ActivityCode": "CRT",
+    "ActivityName": "Shipment Created",
+    "Description": "Shipment Created and awaiting further process",
+    "Hub": "Abu Dhabi Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100011",
+    "Name": "Shipment Activity 9",
+    "AWBTrackingNo": "RAKCR0000000000009",
+    "ActivityCode": "DSP",
+    "ActivityName": "Shipment Dispatched",
+    "Description": "Shipment dispatched from Abu Dhabi Hub and in transit",
+    "Hub": "Abu Dhabi Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
   },
   {
     "ShipmentID": "SH100010",
@@ -86,8 +275,29 @@
     "AWBTrackingNo": "RAKCR0000000000010",
     "ActivityCode": "ARR",
     "ActivityName": "Arrived at Hub",
-    "Description": "Shipment received at Sharjah Hub and awaiting further process",
-    "Hub": "Sharjah Hub"
+    "Description": "Shipment received at Abu Dhabi Hub and awaiting further process",
+    "Hub": "Abu Dhabi Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100011",
+    "Name": "Shipment Activity 10",
+    "AWBTrackingNo": "RAKCR0000000000010",
+    "ActivityCode": "CRT",
+    "ActivityName": "Shipment Created",
+    "Description": "Shipment Created and awaiting further process",
+    "Hub": "Sharjah Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100012",
+    "Name": "Shipment Activity 10",
+    "AWBTrackingNo": "RAKCR0000000000010",
+    "ActivityCode": "DSP",
+    "ActivityName": "Shipment Dispatched",
+    "Description": "Shipment dispatched from Sharjah Hub and in transit",
+    "Hub": "Sharjah Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
   },
   {
     "ShipmentID": "SH100011",
@@ -95,8 +305,29 @@
     "AWBTrackingNo": "RAKCR0000000000011",
     "ActivityCode": "ARR",
     "ActivityName": "Arrived at Hub",
-    "Description": "Shipment received at Sharjah Hub and awaiting further process",
-    "Hub": "Sharjah Hub"
+    "Description": "Shipment received at Jebel Ali Freezone Hub and awaiting further process",
+    "Hub": "Jebel Ali Freezone Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100012",
+    "Name": "Shipment Activity 11",
+    "AWBTrackingNo": "RAKCR0000000000011",
+    "ActivityCode": "CRT",
+    "ActivityName": "Shipment Created",
+    "Description": "Shipment Created and awaiting further process",
+    "Hub": "Jebel Ali Freezone Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100013",
+    "Name": "Shipment Activity 11",
+    "AWBTrackingNo": "RAKCR0000000000011",
+    "ActivityCode": "DSP",
+    "ActivityName": "Shipment Dispatched",
+    "Description": "Shipment dispatched from Jebel Ali Freezone Hub and in transit",
+    "Hub": "Jebel Ali Freezone Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
   },
   {
     "ShipmentID": "SH100012",
@@ -104,8 +335,29 @@
     "AWBTrackingNo": "RAKCR0000000000012",
     "ActivityCode": "ARR",
     "ActivityName": "Arrived at Hub",
-    "Description": "Shipment received at Dubai Hub and awaiting further process",
-    "Hub": "Dubai Hub"
+    "Description": "Shipment received at Sharjah Hub and awaiting further process",
+    "Hub": "Sharjah Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100013",
+    "Name": "Shipment Activity 12",
+    "AWBTrackingNo": "RAKCR0000000000012",
+    "ActivityCode": "CRT",
+    "ActivityName": "Shipment Created",
+    "Description": "Shipment Created and awaiting further process",
+    "Hub": "Dubai Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100014",
+    "Name": "Shipment Activity 12",
+    "AWBTrackingNo": "RAKCR0000000000012",
+    "ActivityCode": "DSP",
+    "ActivityName": "Shipment Dispatched",
+    "Description": "Shipment dispatched from Dubai Hub and in transit",
+    "Hub": "Dubai Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
   },
   {
     "ShipmentID": "SH100013",
@@ -114,7 +366,28 @@
     "ActivityCode": "ARR",
     "ActivityName": "Arrived at Hub",
     "Description": "Shipment received at Sharjah Hub and awaiting further process",
-    "Hub": "Sharjah Hub"
+    "Hub": "Sharjah Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100014",
+    "Name": "Shipment Activity 13",
+    "AWBTrackingNo": "RAKCR0000000000013",
+    "ActivityCode": "CRT",
+    "ActivityName": "Shipment Created",
+    "Description": "Shipment Created and awaiting further process",
+    "Hub": "Abu Dhabi Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100015",
+    "Name": "Shipment Activity 13",
+    "AWBTrackingNo": "RAKCR0000000000013",
+    "ActivityCode": "DSP",
+    "ActivityName": "Shipment Dispatched",
+    "Description": "Shipment dispatched from Abu Dhabi Hub and in transit",
+    "Hub": "Abu Dhabi Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
   },
   {
     "ShipmentID": "SH100014",
@@ -122,8 +395,29 @@
     "AWBTrackingNo": "RAKCR0000000000014",
     "ActivityCode": "ARR",
     "ActivityName": "Arrived at Hub",
-    "Description": "Shipment received at Sharjah Hub and awaiting further process",
-    "Hub": "Sharjah Hub"
+    "Description": "Shipment received at Jebel Ali Freezone Hub and awaiting further process",
+    "Hub": "Jebel Ali Freezone Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100015",
+    "Name": "Shipment Activity 14",
+    "AWBTrackingNo": "RAKCR0000000000014",
+    "ActivityCode": "CRT",
+    "ActivityName": "Shipment Created",
+    "Description": "Shipment Created and awaiting further process",
+    "Hub": "Sharjah Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100016",
+    "Name": "Shipment Activity 14",
+    "AWBTrackingNo": "RAKCR0000000000014",
+    "ActivityCode": "DSP",
+    "ActivityName": "Shipment Dispatched",
+    "Description": "Shipment dispatched from Sharjah Hub and in transit",
+    "Hub": "Sharjah Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
   },
   {
     "ShipmentID": "SH100015",
@@ -131,8 +425,29 @@
     "AWBTrackingNo": "RAKCR0000000000015",
     "ActivityCode": "ARR",
     "ActivityName": "Arrived at Hub",
-    "Description": "Shipment received at Dubai Hub and awaiting further process",
-    "Hub": "Dubai Hub"
+    "Description": "Shipment received at Jebel Ali Freezone Hub and awaiting further process",
+    "Hub": "Jebel Ali Freezone Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100016",
+    "Name": "Shipment Activity 15",
+    "AWBTrackingNo": "RAKCR0000000000015",
+    "ActivityCode": "CRT",
+    "ActivityName": "Shipment Created",
+    "Description": "Shipment Created and awaiting further process",
+    "Hub": "Jebel Ali Freezone Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100017",
+    "Name": "Shipment Activity 15",
+    "AWBTrackingNo": "RAKCR0000000000015",
+    "ActivityCode": "DSP",
+    "ActivityName": "Shipment Dispatched",
+    "Description": "Shipment dispatched from Jebel Ali Freezone Hub and in transit",
+    "Hub": "Jebel Ali Freezone Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
   },
   {
     "ShipmentID": "SH100016",
@@ -140,8 +455,29 @@
     "AWBTrackingNo": "RAKCR0000000000016",
     "ActivityCode": "ARR",
     "ActivityName": "Arrived at Hub",
-    "Description": "Shipment received at Sharjah Hub and awaiting further process",
-    "Hub": "Sharjah Hub"
+    "Description": "Shipment received at Jebel Ali Freezone Hub and awaiting further process",
+    "Hub": "Jebel Ali Freezone Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100017",
+    "Name": "Shipment Activity 16",
+    "AWBTrackingNo": "RAKCR0000000000016",
+    "ActivityCode": "CRT",
+    "ActivityName": "Shipment Created",
+    "Description": "Shipment Created and awaiting further process",
+    "Hub": "Dubai Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100018",
+    "Name": "Shipment Activity 16",
+    "AWBTrackingNo": "RAKCR0000000000016",
+    "ActivityCode": "DSP",
+    "ActivityName": "Shipment Dispatched",
+    "Description": "Shipment dispatched from Dubai Hub and in transit",
+    "Hub": "Dubai Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
   },
   {
     "ShipmentID": "SH100017",
@@ -149,8 +485,29 @@
     "AWBTrackingNo": "RAKCR0000000000017",
     "ActivityCode": "ARR",
     "ActivityName": "Arrived at Hub",
-    "Description": "Shipment received at Dubai Hub and awaiting further process",
-    "Hub": "Dubai Hub"
+    "Description": "Shipment received at Abu Dhabi Hub and awaiting further process",
+    "Hub": "Abu Dhabi Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100018",
+    "Name": "Shipment Activity 17",
+    "AWBTrackingNo": "RAKCR0000000000017",
+    "ActivityCode": "CRT",
+    "ActivityName": "Shipment Created",
+    "Description": "Shipment Created and awaiting further process",
+    "Hub": "Abu Dhabi Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100019",
+    "Name": "Shipment Activity 17",
+    "AWBTrackingNo": "RAKCR0000000000017",
+    "ActivityCode": "DSP",
+    "ActivityName": "Shipment Dispatched",
+    "Description": "Shipment dispatched from Abu Dhabi Hub and in transit",
+    "Hub": "Abu Dhabi Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
   },
   {
     "ShipmentID": "SH100018",
@@ -159,7 +516,28 @@
     "ActivityCode": "ARR",
     "ActivityName": "Arrived at Hub",
     "Description": "Shipment received at Abu Dhabi Hub and awaiting further process",
-    "Hub": "Abu Dhabi Hub"
+    "Hub": "Abu Dhabi Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100019",
+    "Name": "Shipment Activity 18",
+    "AWBTrackingNo": "RAKCR0000000000018",
+    "ActivityCode": "CRT",
+    "ActivityName": "Shipment Created",
+    "Description": "Shipment Created and awaiting further process",
+    "Hub": "Sharjah Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100020",
+    "Name": "Shipment Activity 18",
+    "AWBTrackingNo": "RAKCR0000000000018",
+    "ActivityCode": "DSP",
+    "ActivityName": "Shipment Dispatched",
+    "Description": "Shipment dispatched from Sharjah Hub and in transit",
+    "Hub": "Sharjah Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
   },
   {
     "ShipmentID": "SH100019",
@@ -167,8 +545,29 @@
     "AWBTrackingNo": "RAKCR0000000000019",
     "ActivityCode": "ARR",
     "ActivityName": "Arrived at Hub",
-    "Description": "Shipment received at Jebel Ali Freezone Hub and awaiting further process",
-    "Hub": "Jebel Ali Freezone Hub"
+    "Description": "Shipment received at Dubai Hub and awaiting further process",
+    "Hub": "Dubai Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100020",
+    "Name": "Shipment Activity 19",
+    "AWBTrackingNo": "RAKCR0000000000019",
+    "ActivityCode": "CRT",
+    "ActivityName": "Shipment Created",
+    "Description": "Shipment Created and awaiting further process",
+    "Hub": "Jebel Ali Freezone Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100021",
+    "Name": "Shipment Activity 19",
+    "AWBTrackingNo": "RAKCR0000000000019",
+    "ActivityCode": "DSP",
+    "ActivityName": "Shipment Dispatched",
+    "Description": "Shipment dispatched from Jebel Ali Freezone Hub and in transit",
+    "Hub": "Jebel Ali Freezone Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
   },
   {
     "ShipmentID": "SH100020",
@@ -176,8 +575,29 @@
     "AWBTrackingNo": "RAKCR0000000000020",
     "ActivityCode": "ARR",
     "ActivityName": "Arrived at Hub",
-    "Description": "Shipment received at Jebel Ali Freezone Hub and awaiting further process",
-    "Hub": "Jebel Ali Freezone Hub"
+    "Description": "Shipment received at Abu Dhabi Hub and awaiting further process",
+    "Hub": "Abu Dhabi Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100021",
+    "Name": "Shipment Activity 20",
+    "AWBTrackingNo": "RAKCR0000000000020",
+    "ActivityCode": "CRT",
+    "ActivityName": "Shipment Created",
+    "Description": "Shipment Created and awaiting further process",
+    "Hub": "Dubai Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100022",
+    "Name": "Shipment Activity 20",
+    "AWBTrackingNo": "RAKCR0000000000020",
+    "ActivityCode": "DSP",
+    "ActivityName": "Shipment Dispatched",
+    "Description": "Shipment dispatched from Dubai Hub and in transit",
+    "Hub": "Dubai Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
   },
   {
     "ShipmentID": "SH100021",
@@ -185,8 +605,29 @@
     "AWBTrackingNo": "RAKCR0000000000021",
     "ActivityCode": "ARR",
     "ActivityName": "Arrived at Hub",
-    "Description": "Shipment received at Dubai Hub and awaiting further process",
-    "Hub": "Dubai Hub"
+    "Description": "Shipment received at Jebel Ali Freezone Hub and awaiting further process",
+    "Hub": "Jebel Ali Freezone Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100022",
+    "Name": "Shipment Activity 21",
+    "AWBTrackingNo": "RAKCR0000000000021",
+    "ActivityCode": "CRT",
+    "ActivityName": "Shipment Created",
+    "Description": "Shipment Created and awaiting further process",
+    "Hub": "Abu Dhabi Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100023",
+    "Name": "Shipment Activity 21",
+    "AWBTrackingNo": "RAKCR0000000000021",
+    "ActivityCode": "DSP",
+    "ActivityName": "Shipment Dispatched",
+    "Description": "Shipment dispatched from Abu Dhabi Hub and in transit",
+    "Hub": "Abu Dhabi Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
   },
   {
     "ShipmentID": "SH100022",
@@ -195,7 +636,28 @@
     "ActivityCode": "ARR",
     "ActivityName": "Arrived at Hub",
     "Description": "Shipment received at Sharjah Hub and awaiting further process",
-    "Hub": "Sharjah Hub"
+    "Hub": "Sharjah Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100023",
+    "Name": "Shipment Activity 22",
+    "AWBTrackingNo": "RAKCR0000000000022",
+    "ActivityCode": "CRT",
+    "ActivityName": "Shipment Created",
+    "Description": "Shipment Created and awaiting further process",
+    "Hub": "Sharjah Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100024",
+    "Name": "Shipment Activity 22",
+    "AWBTrackingNo": "RAKCR0000000000022",
+    "ActivityCode": "DSP",
+    "ActivityName": "Shipment Dispatched",
+    "Description": "Shipment dispatched from Sharjah Hub and in transit",
+    "Hub": "Sharjah Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
   },
   {
     "ShipmentID": "SH100023",
@@ -203,8 +665,29 @@
     "AWBTrackingNo": "RAKCR0000000000023",
     "ActivityCode": "ARR",
     "ActivityName": "Arrived at Hub",
-    "Description": "Shipment received at Sharjah Hub and awaiting further process",
-    "Hub": "Sharjah Hub"
+    "Description": "Shipment received at Dubai Hub and awaiting further process",
+    "Hub": "Dubai Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100024",
+    "Name": "Shipment Activity 23",
+    "AWBTrackingNo": "RAKCR0000000000023",
+    "ActivityCode": "CRT",
+    "ActivityName": "Shipment Created",
+    "Description": "Shipment Created and awaiting further process",
+    "Hub": "Jebel Ali Freezone Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100025",
+    "Name": "Shipment Activity 23",
+    "AWBTrackingNo": "RAKCR0000000000023",
+    "ActivityCode": "DSP",
+    "ActivityName": "Shipment Dispatched",
+    "Description": "Shipment dispatched from Jebel Ali Freezone Hub and in transit",
+    "Hub": "Jebel Ali Freezone Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
   },
   {
     "ShipmentID": "SH100024",
@@ -212,8 +695,29 @@
     "AWBTrackingNo": "RAKCR0000000000024",
     "ActivityCode": "ARR",
     "ActivityName": "Arrived at Hub",
-    "Description": "Shipment received at Abu Dhabi Hub and awaiting further process",
-    "Hub": "Abu Dhabi Hub"
+    "Description": "Shipment received at Sharjah Hub and awaiting further process",
+    "Hub": "Sharjah Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100025",
+    "Name": "Shipment Activity 24",
+    "AWBTrackingNo": "RAKCR0000000000024",
+    "ActivityCode": "CRT",
+    "ActivityName": "Shipment Created",
+    "Description": "Shipment Created and awaiting further process",
+    "Hub": "Dubai Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100026",
+    "Name": "Shipment Activity 24",
+    "AWBTrackingNo": "RAKCR0000000000024",
+    "ActivityCode": "DSP",
+    "ActivityName": "Shipment Dispatched",
+    "Description": "Shipment dispatched from Dubai Hub and in transit",
+    "Hub": "Dubai Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
   },
   {
     "ShipmentID": "SH100025",
@@ -222,7 +726,28 @@
     "ActivityCode": "ARR",
     "ActivityName": "Arrived at Hub",
     "Description": "Shipment received at Dubai Hub and awaiting further process",
-    "Hub": "Dubai Hub"
+    "Hub": "Dubai Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100026",
+    "Name": "Shipment Activity 25",
+    "AWBTrackingNo": "RAKCR0000000000025",
+    "ActivityCode": "CRT",
+    "ActivityName": "Shipment Created",
+    "Description": "Shipment Created and awaiting further process",
+    "Hub": "Abu Dhabi Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100027",
+    "Name": "Shipment Activity 25",
+    "AWBTrackingNo": "RAKCR0000000000025",
+    "ActivityCode": "DSP",
+    "ActivityName": "Shipment Dispatched",
+    "Description": "Shipment dispatched from Abu Dhabi Hub and in transit",
+    "Hub": "Abu Dhabi Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
   },
   {
     "ShipmentID": "SH100026",
@@ -231,7 +756,28 @@
     "ActivityCode": "ARR",
     "ActivityName": "Arrived at Hub",
     "Description": "Shipment received at Abu Dhabi Hub and awaiting further process",
-    "Hub": "Abu Dhabi Hub"
+    "Hub": "Abu Dhabi Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100027",
+    "Name": "Shipment Activity 26",
+    "AWBTrackingNo": "RAKCR0000000000026",
+    "ActivityCode": "CRT",
+    "ActivityName": "Shipment Created",
+    "Description": "Shipment Created and awaiting further process",
+    "Hub": "Sharjah Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100028",
+    "Name": "Shipment Activity 26",
+    "AWBTrackingNo": "RAKCR0000000000026",
+    "ActivityCode": "DSP",
+    "ActivityName": "Shipment Dispatched",
+    "Description": "Shipment dispatched from Sharjah Hub and in transit",
+    "Hub": "Sharjah Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
   },
   {
     "ShipmentID": "SH100027",
@@ -239,8 +785,29 @@
     "AWBTrackingNo": "RAKCR0000000000027",
     "ActivityCode": "ARR",
     "ActivityName": "Arrived at Hub",
-    "Description": "Shipment received at Dubai Hub and awaiting further process",
-    "Hub": "Dubai Hub"
+    "Description": "Shipment received at Abu Dhabi Hub and awaiting further process",
+    "Hub": "Abu Dhabi Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100028",
+    "Name": "Shipment Activity 27",
+    "AWBTrackingNo": "RAKCR0000000000027",
+    "ActivityCode": "CRT",
+    "ActivityName": "Shipment Created",
+    "Description": "Shipment Created and awaiting further process",
+    "Hub": "Jebel Ali Freezone Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100029",
+    "Name": "Shipment Activity 27",
+    "AWBTrackingNo": "RAKCR0000000000027",
+    "ActivityCode": "DSP",
+    "ActivityName": "Shipment Dispatched",
+    "Description": "Shipment dispatched from Jebel Ali Freezone Hub and in transit",
+    "Hub": "Jebel Ali Freezone Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
   },
   {
     "ShipmentID": "SH100028",
@@ -248,8 +815,29 @@
     "AWBTrackingNo": "RAKCR0000000000028",
     "ActivityCode": "ARR",
     "ActivityName": "Arrived at Hub",
-    "Description": "Shipment received at Jebel Ali Freezone Hub and awaiting further process",
-    "Hub": "Jebel Ali Freezone Hub"
+    "Description": "Shipment received at Sharjah Hub and awaiting further process",
+    "Hub": "Sharjah Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100029",
+    "Name": "Shipment Activity 28",
+    "AWBTrackingNo": "RAKCR0000000000028",
+    "ActivityCode": "CRT",
+    "ActivityName": "Shipment Created",
+    "Description": "Shipment Created and awaiting further process",
+    "Hub": "Dubai Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100030",
+    "Name": "Shipment Activity 28",
+    "AWBTrackingNo": "RAKCR0000000000028",
+    "ActivityCode": "DSP",
+    "ActivityName": "Shipment Dispatched",
+    "Description": "Shipment dispatched from Dubai Hub and in transit",
+    "Hub": "Dubai Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
   },
   {
     "ShipmentID": "SH100029",
@@ -258,7 +846,28 @@
     "ActivityCode": "ARR",
     "ActivityName": "Arrived at Hub",
     "Description": "Shipment received at Sharjah Hub and awaiting further process",
-    "Hub": "Sharjah Hub"
+    "Hub": "Sharjah Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100030",
+    "Name": "Shipment Activity 29",
+    "AWBTrackingNo": "RAKCR0000000000029",
+    "ActivityCode": "CRT",
+    "ActivityName": "Shipment Created",
+    "Description": "Shipment Created and awaiting further process",
+    "Hub": "Abu Dhabi Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100031",
+    "Name": "Shipment Activity 29",
+    "AWBTrackingNo": "RAKCR0000000000029",
+    "ActivityCode": "DSP",
+    "ActivityName": "Shipment Dispatched",
+    "Description": "Shipment dispatched from Abu Dhabi Hub and in transit",
+    "Hub": "Abu Dhabi Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
   },
   {
     "ShipmentID": "SH100030",
@@ -266,8 +875,29 @@
     "AWBTrackingNo": "RAKCR0000000000030",
     "ActivityCode": "ARR",
     "ActivityName": "Arrived at Hub",
-    "Description": "Shipment received at Abu Dhabi Hub and awaiting further process",
-    "Hub": "Abu Dhabi Hub"
+    "Description": "Shipment received at Dubai Hub and awaiting further process",
+    "Hub": "Dubai Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100031",
+    "Name": "Shipment Activity 30",
+    "AWBTrackingNo": "RAKCR0000000000030",
+    "ActivityCode": "CRT",
+    "ActivityName": "Shipment Created",
+    "Description": "Shipment Created and awaiting further process",
+    "Hub": "Sharjah Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100032",
+    "Name": "Shipment Activity 30",
+    "AWBTrackingNo": "RAKCR0000000000030",
+    "ActivityCode": "DSP",
+    "ActivityName": "Shipment Dispatched",
+    "Description": "Shipment dispatched from Sharjah Hub and in transit",
+    "Hub": "Sharjah Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
   },
   {
     "ShipmentID": "SH100031",
@@ -276,7 +906,28 @@
     "ActivityCode": "ARR",
     "ActivityName": "Arrived at Hub",
     "Description": "Shipment received at Sharjah Hub and awaiting further process",
-    "Hub": "Sharjah Hub"
+    "Hub": "Sharjah Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100032",
+    "Name": "Shipment Activity 31",
+    "AWBTrackingNo": "RAKCR0000000000031",
+    "ActivityCode": "CRT",
+    "ActivityName": "Shipment Created",
+    "Description": "Shipment Created and awaiting further process",
+    "Hub": "Jebel Ali Freezone Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100033",
+    "Name": "Shipment Activity 31",
+    "AWBTrackingNo": "RAKCR0000000000031",
+    "ActivityCode": "DSP",
+    "ActivityName": "Shipment Dispatched",
+    "Description": "Shipment dispatched from Jebel Ali Freezone Hub and in transit",
+    "Hub": "Jebel Ali Freezone Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
   },
   {
     "ShipmentID": "SH100032",
@@ -285,7 +936,28 @@
     "ActivityCode": "ARR",
     "ActivityName": "Arrived at Hub",
     "Description": "Shipment received at Jebel Ali Freezone Hub and awaiting further process",
-    "Hub": "Jebel Ali Freezone Hub"
+    "Hub": "Jebel Ali Freezone Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100033",
+    "Name": "Shipment Activity 32",
+    "AWBTrackingNo": "RAKCR0000000000032",
+    "ActivityCode": "CRT",
+    "ActivityName": "Shipment Created",
+    "Description": "Shipment Created and awaiting further process",
+    "Hub": "Dubai Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100034",
+    "Name": "Shipment Activity 32",
+    "AWBTrackingNo": "RAKCR0000000000032",
+    "ActivityCode": "DSP",
+    "ActivityName": "Shipment Dispatched",
+    "Description": "Shipment dispatched from Dubai Hub and in transit",
+    "Hub": "Dubai Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
   },
   {
     "ShipmentID": "SH100033",
@@ -294,7 +966,28 @@
     "ActivityCode": "ARR",
     "ActivityName": "Arrived at Hub",
     "Description": "Shipment received at Abu Dhabi Hub and awaiting further process",
-    "Hub": "Abu Dhabi Hub"
+    "Hub": "Abu Dhabi Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100034",
+    "Name": "Shipment Activity 33",
+    "AWBTrackingNo": "RAKCR0000000000033",
+    "ActivityCode": "CRT",
+    "ActivityName": "Shipment Created",
+    "Description": "Shipment Created and awaiting further process",
+    "Hub": "Abu Dhabi Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100035",
+    "Name": "Shipment Activity 33",
+    "AWBTrackingNo": "RAKCR0000000000033",
+    "ActivityCode": "DSP",
+    "ActivityName": "Shipment Dispatched",
+    "Description": "Shipment dispatched from Abu Dhabi Hub and in transit",
+    "Hub": "Abu Dhabi Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
   },
   {
     "ShipmentID": "SH100034",
@@ -302,8 +995,29 @@
     "AWBTrackingNo": "RAKCR0000000000034",
     "ActivityCode": "ARR",
     "ActivityName": "Arrived at Hub",
-    "Description": "Shipment received at Abu Dhabi Hub and awaiting further process",
-    "Hub": "Abu Dhabi Hub"
+    "Description": "Shipment received at Dubai Hub and awaiting further process",
+    "Hub": "Dubai Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100035",
+    "Name": "Shipment Activity 34",
+    "AWBTrackingNo": "RAKCR0000000000034",
+    "ActivityCode": "CRT",
+    "ActivityName": "Shipment Created",
+    "Description": "Shipment Created and awaiting further process",
+    "Hub": "Sharjah Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100036",
+    "Name": "Shipment Activity 34",
+    "AWBTrackingNo": "RAKCR0000000000034",
+    "ActivityCode": "DSP",
+    "ActivityName": "Shipment Dispatched",
+    "Description": "Shipment dispatched from Sharjah Hub and in transit",
+    "Hub": "Sharjah Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
   },
   {
     "ShipmentID": "SH100035",
@@ -312,7 +1026,28 @@
     "ActivityCode": "ARR",
     "ActivityName": "Arrived at Hub",
     "Description": "Shipment received at Jebel Ali Freezone Hub and awaiting further process",
-    "Hub": "Jebel Ali Freezone Hub"
+    "Hub": "Jebel Ali Freezone Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100036",
+    "Name": "Shipment Activity 35",
+    "AWBTrackingNo": "RAKCR0000000000035",
+    "ActivityCode": "CRT",
+    "ActivityName": "Shipment Created",
+    "Description": "Shipment Created and awaiting further process",
+    "Hub": "Jebel Ali Freezone Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100037",
+    "Name": "Shipment Activity 35",
+    "AWBTrackingNo": "RAKCR0000000000035",
+    "ActivityCode": "DSP",
+    "ActivityName": "Shipment Dispatched",
+    "Description": "Shipment dispatched from Jebel Ali Freezone Hub and in transit",
+    "Hub": "Jebel Ali Freezone Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
   },
   {
     "ShipmentID": "SH100036",
@@ -321,7 +1056,28 @@
     "ActivityCode": "ARR",
     "ActivityName": "Arrived at Hub",
     "Description": "Shipment received at Jebel Ali Freezone Hub and awaiting further process",
-    "Hub": "Jebel Ali Freezone Hub"
+    "Hub": "Jebel Ali Freezone Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100037",
+    "Name": "Shipment Activity 36",
+    "AWBTrackingNo": "RAKCR0000000000036",
+    "ActivityCode": "CRT",
+    "ActivityName": "Shipment Created",
+    "Description": "Shipment Created and awaiting further process",
+    "Hub": "Dubai Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100038",
+    "Name": "Shipment Activity 36",
+    "AWBTrackingNo": "RAKCR0000000000036",
+    "ActivityCode": "DSP",
+    "ActivityName": "Shipment Dispatched",
+    "Description": "Shipment dispatched from Dubai Hub and in transit",
+    "Hub": "Dubai Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
   },
   {
     "ShipmentID": "SH100037",
@@ -329,8 +1085,29 @@
     "AWBTrackingNo": "RAKCR0000000000037",
     "ActivityCode": "ARR",
     "ActivityName": "Arrived at Hub",
-    "Description": "Shipment received at Dubai Hub and awaiting further process",
-    "Hub": "Dubai Hub"
+    "Description": "Shipment received at Sharjah Hub and awaiting further process",
+    "Hub": "Sharjah Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100038",
+    "Name": "Shipment Activity 37",
+    "AWBTrackingNo": "RAKCR0000000000037",
+    "ActivityCode": "CRT",
+    "ActivityName": "Shipment Created",
+    "Description": "Shipment Created and awaiting further process",
+    "Hub": "Abu Dhabi Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100039",
+    "Name": "Shipment Activity 37",
+    "AWBTrackingNo": "RAKCR0000000000037",
+    "ActivityCode": "DSP",
+    "ActivityName": "Shipment Dispatched",
+    "Description": "Shipment dispatched from Abu Dhabi Hub and in transit",
+    "Hub": "Abu Dhabi Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
   },
   {
     "ShipmentID": "SH100038",
@@ -338,8 +1115,29 @@
     "AWBTrackingNo": "RAKCR0000000000038",
     "ActivityCode": "ARR",
     "ActivityName": "Arrived at Hub",
-    "Description": "Shipment received at Abu Dhabi Hub and awaiting further process",
-    "Hub": "Abu Dhabi Hub"
+    "Description": "Shipment received at Sharjah Hub and awaiting further process",
+    "Hub": "Sharjah Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100039",
+    "Name": "Shipment Activity 38",
+    "AWBTrackingNo": "RAKCR0000000000038",
+    "ActivityCode": "CRT",
+    "ActivityName": "Shipment Created",
+    "Description": "Shipment Created and awaiting further process",
+    "Hub": "Sharjah Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100040",
+    "Name": "Shipment Activity 38",
+    "AWBTrackingNo": "RAKCR0000000000038",
+    "ActivityCode": "DSP",
+    "ActivityName": "Shipment Dispatched",
+    "Description": "Shipment dispatched from Sharjah Hub and in transit",
+    "Hub": "Sharjah Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
   },
   {
     "ShipmentID": "SH100039",
@@ -348,7 +1146,28 @@
     "ActivityCode": "ARR",
     "ActivityName": "Arrived at Hub",
     "Description": "Shipment received at Dubai Hub and awaiting further process",
-    "Hub": "Dubai Hub"
+    "Hub": "Dubai Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100040",
+    "Name": "Shipment Activity 39",
+    "AWBTrackingNo": "RAKCR0000000000039",
+    "ActivityCode": "CRT",
+    "ActivityName": "Shipment Created",
+    "Description": "Shipment Created and awaiting further process",
+    "Hub": "Jebel Ali Freezone Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100041",
+    "Name": "Shipment Activity 39",
+    "AWBTrackingNo": "RAKCR0000000000039",
+    "ActivityCode": "DSP",
+    "ActivityName": "Shipment Dispatched",
+    "Description": "Shipment dispatched from Jebel Ali Freezone Hub and in transit",
+    "Hub": "Jebel Ali Freezone Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
   },
   {
     "ShipmentID": "SH100040",
@@ -357,7 +1176,28 @@
     "ActivityCode": "ARR",
     "ActivityName": "Arrived at Hub",
     "Description": "Shipment received at Dubai Hub and awaiting further process",
-    "Hub": "Dubai Hub"
+    "Hub": "Dubai Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100041",
+    "Name": "Shipment Activity 40",
+    "AWBTrackingNo": "RAKCR0000000000040",
+    "ActivityCode": "CRT",
+    "ActivityName": "Shipment Created",
+    "Description": "Shipment Created and awaiting further process",
+    "Hub": "Dubai Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100042",
+    "Name": "Shipment Activity 40",
+    "AWBTrackingNo": "RAKCR0000000000040",
+    "ActivityCode": "DSP",
+    "ActivityName": "Shipment Dispatched",
+    "Description": "Shipment dispatched from Dubai Hub and in transit",
+    "Hub": "Dubai Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
   },
   {
     "ShipmentID": "SH100041",
@@ -365,8 +1205,29 @@
     "AWBTrackingNo": "RAKCR0000000000041",
     "ActivityCode": "ARR",
     "ActivityName": "Arrived at Hub",
-    "Description": "Shipment received at Jebel Ali Freezone Hub and awaiting further process",
-    "Hub": "Jebel Ali Freezone Hub"
+    "Description": "Shipment received at Dubai Hub and awaiting further process",
+    "Hub": "Dubai Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100042",
+    "Name": "Shipment Activity 41",
+    "AWBTrackingNo": "RAKCR0000000000041",
+    "ActivityCode": "CRT",
+    "ActivityName": "Shipment Created",
+    "Description": "Shipment Created and awaiting further process",
+    "Hub": "Abu Dhabi Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100043",
+    "Name": "Shipment Activity 41",
+    "AWBTrackingNo": "RAKCR0000000000041",
+    "ActivityCode": "DSP",
+    "ActivityName": "Shipment Dispatched",
+    "Description": "Shipment dispatched from Abu Dhabi Hub and in transit",
+    "Hub": "Abu Dhabi Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
   },
   {
     "ShipmentID": "SH100042",
@@ -374,8 +1235,29 @@
     "AWBTrackingNo": "RAKCR0000000000042",
     "ActivityCode": "ARR",
     "ActivityName": "Arrived at Hub",
-    "Description": "Shipment received at Sharjah Hub and awaiting further process",
-    "Hub": "Sharjah Hub"
+    "Description": "Shipment received at Abu Dhabi Hub and awaiting further process",
+    "Hub": "Abu Dhabi Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100043",
+    "Name": "Shipment Activity 42",
+    "AWBTrackingNo": "RAKCR0000000000042",
+    "ActivityCode": "CRT",
+    "ActivityName": "Shipment Created",
+    "Description": "Shipment Created and awaiting further process",
+    "Hub": "Sharjah Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100044",
+    "Name": "Shipment Activity 42",
+    "AWBTrackingNo": "RAKCR0000000000042",
+    "ActivityCode": "DSP",
+    "ActivityName": "Shipment Dispatched",
+    "Description": "Shipment dispatched from Sharjah Hub and in transit",
+    "Hub": "Sharjah Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
   },
   {
     "ShipmentID": "SH100043",
@@ -383,8 +1265,29 @@
     "AWBTrackingNo": "RAKCR0000000000043",
     "ActivityCode": "ARR",
     "ActivityName": "Arrived at Hub",
-    "Description": "Shipment received at Dubai Hub and awaiting further process",
-    "Hub": "Dubai Hub"
+    "Description": "Shipment received at Abu Dhabi Hub and awaiting further process",
+    "Hub": "Abu Dhabi Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100044",
+    "Name": "Shipment Activity 43",
+    "AWBTrackingNo": "RAKCR0000000000043",
+    "ActivityCode": "CRT",
+    "ActivityName": "Shipment Created",
+    "Description": "Shipment Created and awaiting further process",
+    "Hub": "Jebel Ali Freezone Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100045",
+    "Name": "Shipment Activity 43",
+    "AWBTrackingNo": "RAKCR0000000000043",
+    "ActivityCode": "DSP",
+    "ActivityName": "Shipment Dispatched",
+    "Description": "Shipment dispatched from Jebel Ali Freezone Hub and in transit",
+    "Hub": "Jebel Ali Freezone Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
   },
   {
     "ShipmentID": "SH100044",
@@ -392,8 +1295,29 @@
     "AWBTrackingNo": "RAKCR0000000000044",
     "ActivityCode": "ARR",
     "ActivityName": "Arrived at Hub",
-    "Description": "Shipment received at Abu Dhabi Hub and awaiting further process",
-    "Hub": "Abu Dhabi Hub"
+    "Description": "Shipment received at Dubai Hub and awaiting further process",
+    "Hub": "Dubai Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100045",
+    "Name": "Shipment Activity 44",
+    "AWBTrackingNo": "RAKCR0000000000044",
+    "ActivityCode": "CRT",
+    "ActivityName": "Shipment Created",
+    "Description": "Shipment Created and awaiting further process",
+    "Hub": "Dubai Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100046",
+    "Name": "Shipment Activity 44",
+    "AWBTrackingNo": "RAKCR0000000000044",
+    "ActivityCode": "DSP",
+    "ActivityName": "Shipment Dispatched",
+    "Description": "Shipment dispatched from Dubai Hub and in transit",
+    "Hub": "Dubai Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
   },
   {
     "ShipmentID": "SH100045",
@@ -401,8 +1325,29 @@
     "AWBTrackingNo": "RAKCR0000000000045",
     "ActivityCode": "ARR",
     "ActivityName": "Arrived at Hub",
-    "Description": "Shipment received at Jebel Ali Freezone Hub and awaiting further process",
-    "Hub": "Jebel Ali Freezone Hub"
+    "Description": "Shipment received at Abu Dhabi Hub and awaiting further process",
+    "Hub": "Abu Dhabi Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100046",
+    "Name": "Shipment Activity 45",
+    "AWBTrackingNo": "RAKCR0000000000045",
+    "ActivityCode": "CRT",
+    "ActivityName": "Shipment Created",
+    "Description": "Shipment Created and awaiting further process",
+    "Hub": "Abu Dhabi Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100047",
+    "Name": "Shipment Activity 45",
+    "AWBTrackingNo": "RAKCR0000000000045",
+    "ActivityCode": "DSP",
+    "ActivityName": "Shipment Dispatched",
+    "Description": "Shipment dispatched from Abu Dhabi Hub and in transit",
+    "Hub": "Abu Dhabi Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
   },
   {
     "ShipmentID": "SH100046",
@@ -410,8 +1355,29 @@
     "AWBTrackingNo": "RAKCR0000000000046",
     "ActivityCode": "ARR",
     "ActivityName": "Arrived at Hub",
-    "Description": "Shipment received at Sharjah Hub and awaiting further process",
-    "Hub": "Sharjah Hub"
+    "Description": "Shipment received at Abu Dhabi Hub and awaiting further process",
+    "Hub": "Abu Dhabi Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100047",
+    "Name": "Shipment Activity 46",
+    "AWBTrackingNo": "RAKCR0000000000046",
+    "ActivityCode": "CRT",
+    "ActivityName": "Shipment Created",
+    "Description": "Shipment Created and awaiting further process",
+    "Hub": "Sharjah Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100048",
+    "Name": "Shipment Activity 46",
+    "AWBTrackingNo": "RAKCR0000000000046",
+    "ActivityCode": "DSP",
+    "ActivityName": "Shipment Dispatched",
+    "Description": "Shipment dispatched from Sharjah Hub and in transit",
+    "Hub": "Sharjah Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
   },
   {
     "ShipmentID": "SH100047",
@@ -419,8 +1385,29 @@
     "AWBTrackingNo": "RAKCR0000000000047",
     "ActivityCode": "ARR",
     "ActivityName": "Arrived at Hub",
-    "Description": "Shipment received at Sharjah Hub and awaiting further process",
-    "Hub": "Sharjah Hub"
+    "Description": "Shipment received at Jebel Ali Freezone Hub and awaiting further process",
+    "Hub": "Jebel Ali Freezone Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100048",
+    "Name": "Shipment Activity 47",
+    "AWBTrackingNo": "RAKCR0000000000047",
+    "ActivityCode": "CRT",
+    "ActivityName": "Shipment Created",
+    "Description": "Shipment Created and awaiting further process",
+    "Hub": "Jebel Ali Freezone Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100049",
+    "Name": "Shipment Activity 47",
+    "AWBTrackingNo": "RAKCR0000000000047",
+    "ActivityCode": "DSP",
+    "ActivityName": "Shipment Dispatched",
+    "Description": "Shipment dispatched from Jebel Ali Freezone Hub and in transit",
+    "Hub": "Jebel Ali Freezone Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
   },
   {
     "ShipmentID": "SH100048",
@@ -429,7 +1416,28 @@
     "ActivityCode": "ARR",
     "ActivityName": "Arrived at Hub",
     "Description": "Shipment received at Dubai Hub and awaiting further process",
-    "Hub": "Dubai Hub"
+    "Hub": "Dubai Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100049",
+    "Name": "Shipment Activity 48",
+    "AWBTrackingNo": "RAKCR0000000000048",
+    "ActivityCode": "CRT",
+    "ActivityName": "Shipment Created",
+    "Description": "Shipment Created and awaiting further process",
+    "Hub": "Dubai Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100050",
+    "Name": "Shipment Activity 48",
+    "AWBTrackingNo": "RAKCR0000000000048",
+    "ActivityCode": "DSP",
+    "ActivityName": "Shipment Dispatched",
+    "Description": "Shipment dispatched from Dubai Hub and in transit",
+    "Hub": "Dubai Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
   },
   {
     "ShipmentID": "SH100049",
@@ -437,8 +1445,29 @@
     "AWBTrackingNo": "RAKCR0000000000049",
     "ActivityCode": "ARR",
     "ActivityName": "Arrived at Hub",
-    "Description": "Shipment received at Abu Dhabi Hub and awaiting further process",
-    "Hub": "Abu Dhabi Hub"
+    "Description": "Shipment received at Sharjah Hub and awaiting further process",
+    "Hub": "Sharjah Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100050",
+    "Name": "Shipment Activity 49",
+    "AWBTrackingNo": "RAKCR0000000000049",
+    "ActivityCode": "CRT",
+    "ActivityName": "Shipment Created",
+    "Description": "Shipment Created and awaiting further process",
+    "Hub": "Abu Dhabi Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100051",
+    "Name": "Shipment Activity 49",
+    "AWBTrackingNo": "RAKCR0000000000049",
+    "ActivityCode": "DSP",
+    "ActivityName": "Shipment Dispatched",
+    "Description": "Shipment dispatched from Abu Dhabi Hub and in transit",
+    "Hub": "Abu Dhabi Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
   },
   {
     "ShipmentID": "SH100050",
@@ -446,7 +1475,28 @@
     "AWBTrackingNo": "RAKCR0000000000050",
     "ActivityCode": "ARR",
     "ActivityName": "Arrived at Hub",
-    "Description": "Shipment received at Abu Dhabi Hub and awaiting further process",
-    "Hub": "Abu Dhabi Hub"
+    "Description": "Shipment received at Jebel Ali Freezone Hub and awaiting further process",
+    "Hub": "Jebel Ali Freezone Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100051",
+    "Name": "Shipment Activity 50",
+    "AWBTrackingNo": "RAKCR0000000000050",
+    "ActivityCode": "CRT",
+    "ActivityName": "Shipment Created",
+    "Description": "Shipment Created and awaiting further process",
+    "Hub": "Sharjah Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
+  },
+  {
+    "ShipmentID": "SH100052",
+    "Name": "Shipment Activity 50",
+    "AWBTrackingNo": "RAKCR0000000000050",
+    "ActivityCode": "DSP",
+    "ActivityName": "Shipment Dispatched",
+    "Description": "Shipment dispatched from Sharjah Hub and in transit",
+    "Hub": "Sharjah Hub",
+    "CreatedOn": "2026-08-07T14:35:20Z"
   }
 ]
