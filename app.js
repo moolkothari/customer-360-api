@@ -29,6 +29,7 @@ app.get('/api/delivery-tracking', (req, res) => {
     res.json({
         success: true,
         count: deliveryTracking.length,
+        message: 'Delivery tracking records retrieved successfully',
         data: deliveryTracking
     });
 
@@ -44,12 +45,15 @@ app.get('/api/delivery-tracking/:awb', (req, res) => {
         return res.status(200).json({
             success: true,
             message: 'Delivery tracking record not found',
+            count: 0,
             data: null
         });
     }
 
     res.json({
         success: true,
+        message: 'Delivery tracking record found',
+        count: 1,
         data: record
     });
 });
