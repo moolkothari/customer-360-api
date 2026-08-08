@@ -276,18 +276,6 @@
     "householdname": ""
   },
   {
-    "category": "Organizations",
-    "customercif": "CIF987654323",
-    "direction": "",
-    "identifiertype": "CIF",
-    "dev_identifiervalue": "CIF987654324",
-    "name": "Summit Trading",
-    "relationshipid": "505a9b8d-44b7-41fe-a025-c24dfc38770b",
-    "role": "Shareholder",
-    "sortorder": 0,
-    "householdname": ""
-  },
-  {
     "category": "Household",
     "customercif": "CIF987654324",
     "direction": "One Directional",

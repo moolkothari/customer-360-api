@@ -8,6 +8,11 @@ const customerCIFs = [
   'CIF987654326', 'CIF987654327', 'CIF987654328', 'CIF987654329', 'CIF987654330'
 ];
 
+const customers = [
+  'John Smith', 'Jane Doe', 'Ahmed Al-Mansoor', 'Sarah Connor', 'Michael Scott',
+  'Elena Rostova', 'David Chen', 'Fatima Al-Zahra', 'Robert Bruce', 'Maria Garcia'
+];
+
 const companyNames = [
   'Falcon Holdings', 'Apex Logistics', 'Summit Trading', 'Vanguard Corp', 'Horizon Enterprises',
   'Atlas Global', 'Pinnacle Group', 'Nexus Solutions', 'Crestview Tech', 'Oasis Investments'
